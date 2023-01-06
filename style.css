@@ -9,6 +9,8 @@ body {
 
 img {
   border-radius: 5%;
+  display: block;
+  margin: 0 auto;
 }
 
 h2 {
