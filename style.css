@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Inconsolata:wght@300&display=swap');
+
+body {
+  background-color: rgb(253, 253, 253);
+  color: White;
+  line-height: 28px;
+  font-family: 'Give You Glory', cursive;
+}
+
+img {
+  border-radius: 5%;
+}
+
+h2 {
+  color: grey;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  color: darkcyan;
+  font-weight: 650;
+  margin: 0px auto;
+}
+
+input {
+  border: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+input[type="submit"] {
+  color: rgb(4, 77, 77);
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li > a {
+  color: blue;
+  font-size: 30px;
+}
+
+.container {
+  width: 950px;
+  margin: 40px auto;
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-blue {
+  background-color: rgb(176, 207, 221);
+  padding: 20px;
+  box-shadow: 0px 30px 30px rgba(21, 4, 94, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-rectangle {
+  border-radius: 5%;
+}
+.btn-white {
+  background-color: #f3f3f3;
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+.btn-white:hover {
+  background-color: blue;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(168, 162, 162);
+}
+.list-inline i:hover {
+  color: blue;
+}
+
+#introduction p {
+  margin-bottom: 0px;
+}
